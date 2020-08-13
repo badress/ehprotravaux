@@ -6,6 +6,7 @@
   <title>EHproTravaux</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -85,21 +86,29 @@
   <!-- Services -->
 
   <section class="colored-section" id="services">
+    <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-lg-3">
+        <div class="col-lg-12">
+          <ul class="list-group">
+            <li class="list-group-item active" style="text-align: center;">Services</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
           <div class="card service-card">
             <div class="card-body">
               <ul class="list-group">
-                <li class="list-group-item active">Services</li>
-                <li class="list-group-item">&#x2753;  Etude du besoin</li>
-                <li class="list-group-item">&#x2705; Proposition des solutions</li>
-                <li class="list-group-item">&#x1F527; Fabrication</li>
-                <li class="list-group-item">&#x1F69A; Livraison</li>
+                <li class="list-group-item" style="text-align: center;">&#x2753;  Etude du besoin</li>
+                <li class="list-group-item" style="text-align: center;">&#x2705; Proposition des solutions</li>
+                <li class="list-group-item" style="text-align: center;">&#x1F527; Fabrication</li>
+                <li class="list-group-item" style="text-align: center;">&#x1F69A; Livraison</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
   <!-- Products -->
@@ -107,9 +116,9 @@
   <section class="white-section" id="products">
     <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-lg-3">
+        <div class="col-lg-12">
           <ul class="list-group">
-            <li class="list-group-item active">Products</li>
+            <li class="list-group-item active" style="text-align: center;">Produits</li>
           </ul>
         </div>
       </div>
@@ -119,7 +128,7 @@
           <div class="card product-card">
             <img class="card-img-top" src="images/charpente.png" alt="charpente">
             <div class="card-body">
-              <p class="card-text">Charpente</p>
+              <p class="card-text" style="text-align: center;">Charpente</p>
             </div>
           </div>
         </div>
@@ -127,7 +136,7 @@
           <div class="card product-card">
             <img class="card-img-top" src="images/four.png" alt="four">
             <div class="card-body">
-              <p class="card-text">Four Industriel</p>
+              <p class="card-text" style="text-align: center;">Four Industriel</p>
             </div>
           </div>
         </div>
@@ -135,7 +144,7 @@
           <div class="card product-card">
             <img class="card-img-top" src="images/machine.png" alt="machine">
             <div class="card-body">
-              <p class="card-text">Machine</p>
+              <p class="card-text" style="text-align: center;">Machine</p>
             </div>
           </div>
         </div>
@@ -143,7 +152,7 @@
           <div class="card product-card">
             <img class="card-img-top" src="images/citerne.png" alt="citerne">
             <div class="card-body">
-              <p class="card-text">Citerne</p>
+              <p class="card-text" style="text-align: center;">Citerne</p>
             </div>
           </div>
         </div>
@@ -153,40 +162,32 @@
 
 </section>
 
-  <!-- Contact US -->
-
+<!-- Contact and footer -->
   <section class="colored-section">
-
     <div class="container-fluid" id="contact">
       <div class="row">
-        <div class="col-lg-3 col-12">
-          <a href="https://facebook.com/Ehprotravaux-100267925074394/"><h3>Facebook</h3></a>
+        <div class="col-lg-3 col-12" style="text-align: center">
+          <i class="social-icon fab fa-facebook-square" style='font-size:48px;color:rgb(50, 50, 255)'></i>
+          <p>fb.ehprotravaux</p>
         </div>
-        <div class="col-lg-3 col-12">
-          <a href="contact@ehprotravaux.com"><h3>Mail</h3></a>
+        <div class="col-lg-3 col-12" style="text-align: center">
+          <i class="social-icon fas fa-envelope" style='font-size:48px;color:grey'></i>
+          <p> <a href="mailto:contact@ehprotravaux.com">contact@ehprotravaux.com</a></p>
         </div>
-        <div class="col-lg-3 col-12">
-          <a href="https://goo.gl/maps/BVKahvn7VApW647u8"><h3>Adresse</h3></a>
+        <div class="col-lg-3 col-12"  style="text-align: center">
+          <i class="social-icon fab fa-whatsapp" style='font-size:48px;color:green'></i>
+          <p><a href="tel:+212661781802">0661781802</a>  | <a href="tel:+212672144470">0672144470</a></p>
         </div>
-        <div class="col-lg-3 col-12">
-          <h5>+212661781802/+212672144470</h5>
+        <div class="col-lg-3 col-12" style="text-align: center">
+          <i class="social-icon fas fa-map-marker" style='font-size:48px'></i>
+          <p>ait hmad ait boubidmane</p>
         </div>
-
       </div>
+      <footer  style="padding: 0 auto; margin: 1rem ; text-align: center;">
+        <p>EHproTravaux 2020</p>
+      </footer>
     </div>
-
   </section>
-
-
-  <!-- Footer -->
-<section class="container-fluid" id="footer">
-  <footer  style="padding: 0 auto; text-align: center;">
-    <p>© Copyright 2020 EHproTravaux | v0.0.1</p>
-  </footer>
-</section>
-
-
-
 </body>
 
 </html>
